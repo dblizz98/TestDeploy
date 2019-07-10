@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "test-055"
+        },
+        "enableAcceleratedNetworking": {
+            "value": true
+        },
+        "subnetName": {
+            "value": "VM_Test_Subnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/b4399636-7a78-49b3-80bd-02b81d5c1965/resourceGroups/California-TFS/providers/Microsoft.Network/virtualNetworks/TFS-vNet"
+        },
+        "virtualMachineName": {
+            "value": "test-55"
+        },
+        "virtualMachineRG": {
+            "value": "California-TFS"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+		"domainToJoin": {
+            "value": "i2ipophealth.com"
+        },
+        "domainUsername": {
+            "value": "david.blizzard@i2ipophealth.com"
+        },
+        "domainPassword": {
+            "value": "Time2change!!"
+        },
+        "ouPath": {
+            "value": "OU=SupportVMTest;DC=i2ipophealth;DC=com"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "adminUsername": {
+            "value": "i2iadmin"
+        },
+        "adminPassword": {
+            "value": "&}b6HgCmU3uEm8zG#C=*o&6p"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "testvmdeploy"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/b4399636-7a78-49b3-80bd-02b81d5c1965/resourceGroups/California-TFS/providers/Microsoft.Storage/storageAccounts/testvmdeploy2"
+        },
+    }
+}
